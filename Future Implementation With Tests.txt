@@ -1,0 +1,16 @@
+//The next update will contain the grammar detection which will help us to know whether the msg is targetted towards the user or not. 
+If the msg is tartetted towards the user and is abusive or contains hate speech, it will automatically get blocked 
+
+Some of the test cases are:
+
+I love you :: NO
+I kill you :: YES
+I hate you :: Yes
+You are ugly :: YES
+I am ugly :: NO
+You are strong and stupid :: YES
+You are strong but not stupid :: NO
+Whether you are strong or stupid? :: NO
+I think you should go out :: NO
+You should be more stupid than this :: Yes
+Get over here dumbass :: NO because don't know if the word is directed towards the user.

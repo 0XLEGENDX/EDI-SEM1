@@ -178,23 +178,29 @@ class _XylophoneState extends State<GBV> {
 
           Center(
             child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-              HoverWidget(
-                onHover: (event) {},
-                child: Container(
-                  child: Image.asset("assets/offlineabuse2black.jpg"),
-                  height: 200,
-                  width: 200,
-                  decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 248, 248, 248),
-                      borderRadius: BorderRadius.circular(6)),
-                ),
-                hoverChild: Container(
-                  child: Image.asset("assets/offlineabuse2.jpg"),
-                  height: 235,
-                  width: 235,
-                  decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 255, 245, 243),
-                      borderRadius: BorderRadius.circular(6)),
+              GestureDetector(
+                onTap: (() {
+                  _url = Uri.parse("http://127.0.1.1:5006/");
+                  _launchUrl();
+                }),
+                child: HoverWidget(
+                  onHover: (event) {},
+                  child: Container(
+                    child: Image.asset("assets/offlineabuse2black.jpg"),
+                    height: 200,
+                    width: 200,
+                    decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 248, 248, 248),
+                        borderRadius: BorderRadius.circular(6)),
+                  ),
+                  hoverChild: Container(
+                    child: Image.asset("assets/offlineabuse2.jpg"),
+                    height: 235,
+                    width: 235,
+                    decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 255, 245, 243),
+                        borderRadius: BorderRadius.circular(6)),
+                  ),
                 ),
               ),
               SizedBox(

@@ -1,3 +1,7 @@
-import numpy as np
+#include <stdio.h>
 
-print(sum([86,87,88,86,87,85,86])/7)
+struct node{
+    int data;
+    struct node *next;
+}
+
