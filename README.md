@@ -1,16 +1,17 @@
-# play
+# Gender Based Violence Detection
 
-A new Flutter project.
+(Uncompleted)
+
+This is a flutter project with python for machine learning.
+
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Open the folder in any IDE and run 'flutter run --no-sound-null-safety' in terminal.
+Then Go to Violence Detection folder and run main.py.
 
-A few resources to get you started if this is your first Flutter project:
+This will create a server and you can easily use the project now.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You must install all the requred libraries before running.
+Some major changes are needed in the project for the gender based violence detection. It works great on simple violence detection.
